@@ -13,6 +13,7 @@
     }
   }
 
+
   /**
    * Easy event listener function
    */
@@ -191,7 +192,7 @@
     loop: true,
     centeredSlides: true,
     autoplay: {
-      delay: 5000,
+      delay: 2000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
