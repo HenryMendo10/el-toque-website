@@ -180,6 +180,10 @@ section {
   transition: all 0.5s;
 }
 
+.header p{
+  display: none;
+}
+
 /* Estilos adicionales para cuando el encabezado se desplaza */
 .header.header-scrolled {
   padding: 15px 0;
@@ -334,6 +338,14 @@ section {
 
   .navbar ul {
     display: none;
+  }
+
+  .header p{
+    display: block;
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 17px;
+    color: #012970;
   }
 }
 
@@ -493,17 +505,6 @@ section {
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
-}
-
-.about h3 {
-  font-size: 11px;
-  font-weight: 700;
-  background: var(--degradado);
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  text-transform: uppercase;
 }
 
 .about h2 {
