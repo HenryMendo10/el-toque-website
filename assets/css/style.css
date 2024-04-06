@@ -5,7 +5,7 @@
 :root {
   scroll-behavior: smooth;
 
-  --degradado: linear-gradient(to right, #fa4261, #f39762, #d5aa10);
+  --degradado: linear-gradient(to right, #C9F33E, #D87619, #DD4D11);
 }
 
 body {
@@ -680,7 +680,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #FF9F00;
   font-size: 26px;
   line-height: 0;
 }
@@ -717,7 +717,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ed3c0d;
+  background-color: #FF9F00;
 }
 
 @media (max-width: 767px) {
@@ -770,7 +770,7 @@ section {
 }
 
 .services .post-box .post-img video {
-  width: calc(100% + 10px); 
+  width: calc(100%); 
   height: auto;
   display: block;
   margin: 0 -10px;
@@ -865,11 +865,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
-  background: #FF9F00;
+  background: #f0f0f0f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -917,14 +917,14 @@ section {
 
 .contact .info .social-links a:hover {
   background: var(--degradado);
-  color: #fff;
+  color: #f0f0f0f5;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: var(--degradado);
-  color: #fff;
+  color: #FF9F00;
+  background-color: #f0f0f0f5;
 }
 
 .contact form {
@@ -1742,29 +1742,28 @@ section {
   background-position: center; /* Para centrar la imagen */
 }
 
-.gallery .section-header p{
+.gallery .section-header p {
   color: #ecf3ff;
 }
 
-.gallery .swiper-pagination {
-  margin-top: 20px;
+/*--------------------------------------------------------------
+.gallery .swiper-pagination-gallery {
+  margin-top: 40px;
   position: relative;
 }
 
-.gallery .swiper-pagination .swiper-pagination-bullet {
+.gallery .swiper-pagination-gallery .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #d1d1d7;
   opacity: 1;
 }
 
-.gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #111;
+.gallery .swiper-pagination-gallery .swiper-pagination-bullet-active {
+  background-color: #FF9F00;
 }
 
-.gallery .swiper-slide-active {
-  text-align: center;
-}
+*/--------------------------------------------------------------
 
 @media (min-width: 992px) {
   .gallery .swiper-wrapper {
@@ -1778,8 +1777,6 @@ section {
     transform: scale(1.2);
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Recent Blog Posts
