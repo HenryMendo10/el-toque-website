@@ -438,10 +438,11 @@ section {
 
 .hero {
   width: 100%;
-  background: url(../img/asu\ 16.png) top center no-repeat;
-  background-size: cover;
+  background: url(../img/fondo-principal.png) top center no-repeat;
+  background-size: cover; /* Mantenemos cover para que la imagen se ajuste al contenedor */
   background-attachment: center;
   padding: 290px 0; /* Espacio de altura proporcional */
+  transition: background-size 0.5s ease;
 }
 
 .hero h1 {
@@ -451,11 +452,13 @@ section {
   color: #012970;
 }
 
+
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
+
 
 .hero .btn-get-started {
   margin-top: 30px;
@@ -489,8 +492,31 @@ section {
   text-align: right;
 }
 
-@media (max-width: 800px) {
 
+@media (max-width: 1200px) {
+  .hero {
+    background: url(../img/fondo-responsive-1.png) top center no-repeat;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .hero {
+    background: url(../img/fondo-responsive-2.png) top center no-repeat;
+  }
+}
+
+
+@media (max-width: 846px) {
+  .hero {
+    background: url(../img/fondo-responsive-3.png) top center no-repeat;
+  }
+}
+
+@media (max-width: 440px) {
+  .hero {
+    background: url(../img/2.png) top center no-repeat;
+  }
 }
 
 
